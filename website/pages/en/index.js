@@ -81,9 +81,8 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="#see">See how it works.</Button>
-            <Button href={docUrl('doc1.html', language)}>Example Link</Button>
-            <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
+            <Button href="#see">See how it works</Button>
+            <Button href="#try">Try Choban</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -160,43 +159,31 @@ const FeatureCallout = () => (
 );
 
 const LearnHow = () => (
-  <Block background="dark">
+  <Block id="see">
     {[
       {
-        content: 'Let Choban install, remove, upgrade any software for you!',
-        image: imgUrl('docusaurus.svg'),
+        content: 'See how simple it is to install/uninstall an application.',
+        image: imgUrl('how.gif'),
         imageAlign: 'right',
-        title: 'Let Choban do all work',
+        title: 'Let Choban do all work for you',
       },
     ]}
   </Block>
 );
 
 const TryOut = () => (
-  <Block id="see">
+  <Block id="try" background="dark">
     {[
       {
-        content: 'Talk about trying this out',
+        content: '<a class="button" href="docs/install-choban">Download and try Choban right now.</a>' ,
         image: imgUrl('docusaurus.svg'),
         imageAlign: 'left',
-        title: 'Try it Out',
+        title: 'Try Choban!',
       },
     ]}
   </Block>
 );
 
-const Description = () => (
-  <Block background="dark">
-    {[
-      {
-        content: 'This is another description of how this project is useful',
-        image: imgUrl('docusaurus.svg'),
-        imageAlign: 'right',
-        title: 'Description',
-      },
-    ]}
-  </Block>
-);
 
 const Showcase = props => {
   if ((siteConfig.users || []).length === 0) {
@@ -232,11 +219,10 @@ class Index extends React.Component {
         <HomeSplash language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
+          {/* <FeatureCallout /> */}
           <LearnHow />
           <TryOut />
-          <Description />
-          <Showcase language={language} />
+          {/* <Showcase language={language} /> */}
         </div>
       </div>
     );

@@ -18,7 +18,7 @@ Just copy and paste code below to your PowerShell (as admin) and watch the magic
 
 
 
-** PowerShell.exe command: **
+**PowerShell.exe command:**
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/cchoban/installer/master/install.ps1'))
 ```

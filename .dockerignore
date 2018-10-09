@@ -1,0 +1,4 @@
+*/node_modules
+*.log
+website/build
+website/i18n
