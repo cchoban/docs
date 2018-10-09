@@ -26,5 +26,5 @@ Installation variables
 (dict) createShortcut - Shortcuts for software, this will help to run software from command line.
 (boolean) arches - Install software for both arches (x86 and x64)
 (string) unzipPath - Path to be unzipped files
-(string) extractFolder - Folder to be extracted inside ZIP file. Check 'cURL' package as an example.
+(dict) extractFolder - Folder to be extracted inside ZIP file. Check 'cURL' package as an example.
 ```
