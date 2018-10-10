@@ -1,11 +1,8 @@
 {
   "docs": {
     "Choban": ["index", "install-choban", "uninstall-choban"],
-    "Command reference": ["command/install-software", "command/uninstall-software"],
+    "Command reference": ["command/install-software", "command/uninstall-software", "command/force-installations", "command/skip-checking-of-hash"],
     "Config Variables": ["config/skip-agreements", "config/skip-hash-checking"],
     "Packages": ["packages/get-api-key", "packages/helpers", "packages/outdated-packages", "packages/create/create-package", "packages/create/creating-64-bit-only-package", "packages/create/creating-zip-package"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
   }
 }
