@@ -11,7 +11,7 @@ After you got your API Token, type
 
 
 ```markdown
-chob --authenticate <Api Token>
+chob authenticate <Api Token>
 ```
 
 ![](assets/openmind.png)

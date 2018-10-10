@@ -5,7 +5,7 @@ id: creating-64-bit-only-package
 
 Choban using 'JSON' as it's installation scripts serializer, which makes easier for end users to create their own packages without any coding experience.
 
-Example 64 bit only package script: 
+Example 64 bit only package script:
 ```
 {
     "version": "3.0.2",
@@ -22,8 +22,7 @@ Example 64 bit only package script:
     "downloadUrl64": "https://mirror.zetup.net/videolan/vlc/3.0.2/win64/vlc-3.0.2-win64.exe",
     "checksumType64": "sha256",
     "validExitCodes": [
-        0,
-        1223
+        0
     ]
 }
 ```

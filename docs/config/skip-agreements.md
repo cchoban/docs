@@ -4,6 +4,6 @@ id: skip-agreements
 ---
 
 ### Usage
-``` 
-chob --config skipQuestionConfirmations --set true/false
-``` 
+```
+chob config skipQuestionConfirmations --set true/false
+```

@@ -6,5 +6,5 @@ id: skip-hash-checking
 ### Usage
 
 ```
-chob --config skipHashByDefault --set true/false
+chob config skipHashByDefault --set true/false
 ```

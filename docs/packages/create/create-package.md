@@ -9,25 +9,15 @@ You can refer to [Creating ZIP package](creating-zip-file) to see some examples
 1. Create an empty directory and type
 
 ```
-chob --create package-name
+chob create package-name
 ```
 This will bring wizard to create package with some questions.
 
 2. After the wizard directory will be created on your parent directory with your package name. Example: brave-browser
 
-3. Join the directory created by Choban and type
+3. Find an image for your package, put that image file on same directory you have your package script. If 'server' -> 'icon' section does not exists, Choban will search for image file in directory your on.
 
-```
-chob --packit
-```
-Test your package before you push to our servers.
-```
-chob --test--package brave-browser.zip -y
-```
-
-If the process was successfull then you can push your package to our server
-
-
+4. Finally you can push your package.
 ```
 chob --push
 ```
