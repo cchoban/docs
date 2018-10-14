@@ -83,7 +83,7 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href="#see">See how it works</Button>
             <Button href="docs/">Documentation</Button>
-            <Button href="#try">Try Choban</Button>
+            <Button href="/docs/install-choban">Install & Try Choban</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -222,7 +222,7 @@ class Index extends React.Component {
           <Features />
           {/* <FeatureCallout /> */}
           <LearnHow />
-          <TryOut />
+          {/* <TryOut /> */}
           {/* <Showcase language={language} /> */}
         </div>
       </div>
