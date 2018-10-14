@@ -24,19 +24,15 @@ class Help extends React.Component {
     const supportLinks = [
       {
         content: `Learn more using the [documentation on this site.](${docUrl(
-          'doc1.html',
+          'index',
           language
         )})`,
         title: 'Browse Docs',
       },
       {
-        content: 'Ask questions about the documentation and project',
+        content: 'Ask questions about the documentation and project. <br /> <a class="button center" href="https://github.com/cchoban" target="_blank">Github</a>',
         title: 'Join the community',
-      },
-      {
-        content: "Find out what's new with this project",
-        title: 'Stay up to date',
-      },
+      }
     ];
 
     return (

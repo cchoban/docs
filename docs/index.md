@@ -22,4 +22,4 @@ Choban is a software automation tool that focuses on simplicity, security, and s
 
 ## Show me something about Choban
 
-![](choan.gif)
+![](/img/how.gif)
