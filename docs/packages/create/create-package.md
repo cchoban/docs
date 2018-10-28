@@ -19,6 +19,6 @@ This will bring wizard to create package with some questions.
 
 4. Finally you can push your package.
 ```
-chob --push
+chob push
 ```
 
