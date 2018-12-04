@@ -84,6 +84,7 @@ class HomeSplash extends React.Component {
             <Button href="#see">See how it works</Button>
             <Button href="docs/">Documentation</Button>
             <Button href="/docs/install-choban">Install & Try Choban</Button>
+	    <Button href="/packages/">Browse packages</Button>
           </PromoSection>
         </div>
       </SplashContainer>
