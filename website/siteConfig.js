@@ -21,41 +21,41 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Choban - Software automation', // Title for your website.
-  tagline: 'A software automation tool for Windows',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  title: "Choban - Software automation", // Title for your website.
+  tagline: "A software automation tool for Windows",
+  url: "https://cchoban.github.io", // Your website URL
+  baseUrl: "/docs/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'cchoban',
-  organizationName: 'cchoban',
+  projectName: "docs",
+  organizationName: "cchoban",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'index', label: 'Docs'},
+    { doc: "index", label: "Docs" },
     // {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    { page: "help", label: "Help" },
+    { blog: true, label: "Blog" }
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
-  favicon: 'img/favicon.png',
+  headerIcon: "img/docusaurus.svg",
+  footerIcon: "img/docusaurus.svg",
+  favicon: "img/favicon.png",
 
   /* Colors for website */
   colors: {
-    primaryColor: '#d6a846',
-    secondaryColor: '#d6a846',
+    primaryColor: "#d6a846",
+    secondaryColor: "#d6a846"
   },
 
   /* Custom fonts for website */
@@ -77,24 +77,24 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: "default"
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: ["https://buttons.github.io/buttons.js"],
 
   // On page navigation for the current documentation page.
-  onPageNav: 'separate',
+  onPageNav: "separate",
   // No .html extensions for paths.
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
+  ogImage: "img/docusaurus.png",
+  twitterImage: "img/docusaurus.png",
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
- repoUrl: 'https://github.com/cchoban/chob',
+  repoUrl: "https://github.com/cchoban/chob"
 };
 
 module.exports = siteConfig;
