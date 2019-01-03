@@ -2,21 +2,21 @@
 <rss version="2.0">
     <channel>
         <title>Choban - Software automation Blog</title>
-        <link>https://cchoban.github.io/docs/blog</link>
+        <link>https://cchoban.github.io/blog</link>
         <description>The best place to stay up-to-date with the latest Choban - Software automation news and events.</description>
         <lastBuildDate>Fri, 11 Mar 2016 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
             <title>Choban - Software automation Blog</title>
-            <url>https://cchoban.github.io/docs/img/docusaurus.svg</url>
-            <link>https://cchoban.github.io/docs/blog</link>
+            <url>https://cchoban.github.io/img/docusaurus.svg</url>
+            <link>https://cchoban.github.io/blog</link>
         </image>
         <copyright>Copyright © 2019 Choban authors.</copyright>
         <item>
             <title><![CDATA[Blog Title]]></title>
-            <link>https://cchoban.github.io/docs/blog/2016/03/11/blog-post.html</link>
-            <guid>https://cchoban.github.io/docs/blog/2016/03/11/blog-post.html</guid>
+            <link>https://cchoban.github.io/blog/2016/03/11/blog-post.html</link>
+            <guid>https://cchoban.github.io/blog/2016/03/11/blog-post.html</guid>
             <pubDate>Fri, 11 Mar 2016 06:00:00 GMT</pubDate>
             <description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
 ]]></description>
